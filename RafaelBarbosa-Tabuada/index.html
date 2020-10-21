@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teste de Rotina de repetição - Tabuada </title>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    
+    <p id="titulo"> CALCULO - TABUADA </p>
+    <div class="form">
+        <form name="fr">
+            <p style="padding:10px"> Calcular tabuada do valor:
+                <input type="text" name="txtValor" size="25" id="caixa" style="padding:10px" placeholder="0" onkeypress="return numbers();"/>
+
+            <p style="padding:10px"> Multiplicando de:</p>
+            <input type="text" name="txtMultiplo" size="25" id="caixa" style="padding:10px" placeholder="0" onkeypress="return numbers();"/>
+
+            <p style="padding:10px"> Até o valor de:</p>
+            <input type="text" name="txtLimite" size="25" id="caixa" style="padding:10px" placeholder="10" onkeypress="return numbers();"/>
+
+            <p style="text-align: center">
+                <input type="button" value="Calcular" name="btnCalcular" id="botao" onclick="calcular();"/>
+
+
+
+
+            <p id="separador">RESPOSTA ABAIXO</p>
+            <p id="resposta"> </p>
+        </form>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+    border: background solid thin;
+    border-radius: 10px;
+    margin: 2rem auto;
+    background-color:rgb(219, 219, 219);
+    background-size: cover;
+    width: 400px;
+    height: auto;
+    }
+    .form {
+        text-align: center;
+        background: rgb(245, 245, 245);
+    }
+    #titulo{
+    font-family: tahoma;
+    font-size: 16pt;
+    color: brown;
+    border-bottom-style: solid;
+    text-align: center;
+    border-bottom-width: thin;
+    display:table-cell;
+    vertical-align:middle;
+    width: 600px;
+    height: 80px;
+    }
+    p{
+    font-family: consolas;
+    font-size: 12pt;
+    color: brown;
+    }
+    table{
+    border: background solid thin;
+    background-color:#fff;
+    width: 200px;
+    padding:10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #caixa{
+    border: background solid thin;
+    background-color:#ffe;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #botao{
+    font-family: tahoma;
+    font-size: 12pt;
+    background-color:white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    }
+    td{
+    font-family: consolas;
+    font-size: 12pt;
+    color: red;
+    border-bottom-style: dotted;
+    /* border-bottom-wisth: thin; */
+    }
+    #separador{
+    font-family: tahoma;
+    font-size: 16pt;
+    color: red;
+    border-bottom-style: dotted;
+    /* border-bottom-wisth: thin; */
+    padding: 10px;
+    }
